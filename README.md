@@ -2,6 +2,9 @@
 
 ## Overview
 
+<p align="center">
+  <img src="https://github.com/manju16832003/http/blob/master/http_layers.png" width="550"/>
+</p>
 
 ## Components of HTTP-based systems
 
@@ -74,3 +77,4 @@
 ## APIs based on HTTP
 	- XMLHttpRequest
 	- server-sent events https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events
+
