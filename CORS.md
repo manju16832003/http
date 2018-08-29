@@ -69,4 +69,14 @@ GET http://foo.com
 
   http://bar.com must respond with `Access-Control-Allow-Origin: true` inorder for foo.com to access to bar.com even if its GET request
 
+
+A request that doesn’t trigger a CORS preflight—a so-called “simple request”—is one that meets all the following conditions:
+
+The only allowed methods are:
+- GET
+- HEAD
+- POST
+
+
+
   Reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#Preflighted_requests
