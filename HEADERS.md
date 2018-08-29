@@ -1,2 +1,5 @@
 # HTTP Headers
 
+## RESPONSE
+
+## REQUEST

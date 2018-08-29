@@ -59,3 +59,14 @@ Following Example of a request that will be preflighted
       }
   }
 ```
+
+### Reqeusts with credentials
+
+`Access-Control-Allow-Credentials: true`
+
+GET http://foo.com
+  -> Trying to connec to GET http://bar.com
+
+  http://bar.com must respond with `Access-Control-Allow-Origin: true` inorder for foo.com to access to bar.com even if its GET request
+
+  Reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#Preflighted_requests
